@@ -1,0 +1,61 @@
+body {
+    font-family: Arial, sans-serif;
+}
+#filter, #sort {
+    width: 33%;
+}
+h2 {
+    text-align: center;
+}
+p {
+    margin: 5px 0;
+}
+label {
+    display: inline-block;
+    width: 80px;
+}
+input[type="text"],
+input[type="number"] {
+    width: calc(100% - 150px);
+    padding: 5px;
+    margin-left: 5px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+input[type="number"] {
+    width: 80px;
+}
+input[type="button"] {
+    border-radius: 5px;
+    padding: 5px 10px;
+    margin: 5px 2px;
+}
+
+th {
+    background: #A0A0A0;
+    border: 1px solid #B0B0B0;
+    padding: 5px;
+}
+
+td {
+    background: #C0C0C0;
+    border: 1px solid #B0B0B0;
+    padding: 5px;
+}
+
+table {
+    border-spacing: 2px;
+    width: 100%;
+    border: 2px solid #B0B0B0;
+}
+
+
+h2 {
+    text-align: center;
+}
+
+.table-settings {
+    margin: 0 1%;
+    display: flex;
+    align-items: end;
+}
